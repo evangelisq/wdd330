@@ -1,2 +1,4 @@
 https://trello.com/b/4N1imUcE/wdd330-assigments
 
+>>>>>>> a638e726965b88626aebca9a79b6166b46bf9e0d
+Project Authors: Brigham Bagnes, Paul Richard Shaw, Wesley Raymundo, Evangelis Quiling Albesa, Benjamin Offor.
