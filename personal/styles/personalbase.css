@@ -9,6 +9,23 @@ body {
     color: #333;
     background: #f9f9f9;
 }
+.login-btn {
+  background-color: #1976d2;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+}
+
+.login-btn:hover {
+  background-color: #0d47a1;
+}
+
 header {
     background:  #083D77;/*#112A46 ;*/
     color: white;
@@ -275,7 +292,6 @@ h2 {
 .spotlight-ad a:hover{
     background-color: #ffaa00;
 }
-
 
 
 footer {

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resources | Vancouver Paradise</title>
+  <link rel="stylesheet" href="styles/resources.css" />
+  <meta name="description" content="Essential tools and guides to explore Vancouver's destinations, safety, and community services.">
+</head>
+<body>
+  <header class="resources-header">
+    <h1>Helpful Resources</h1>
+    <p>Your gateway to planning, exploring, and engaging with Vancouver</p>
+  </header>
+
+  <main class="resources-container">
+    <section class="resource-card">
+      <h2>🗺️ City Maps & Transit</h2>
+      <p>Download updated walking maps, SkyTrain schedules, and bus route planners to easily navigate the city.</p>
+      <a href="https://www.translink.ca/" target="_blank">Go to TransLink</a>
+    </section>
+
+    <section class="resource-card">
+      <h2>🚨 Emergency Contacts</h2>
+      <p>Find hotlines and 24/7 contacts for police, fire, hospitals, and mental health support across Vancouver.</p>
+      <a href="https://vancouver.ca/home-property-development/emergency-services.aspx" target="_blank">Vancouver Emergency Info</a>
+    </section>
+
+    <section class="resource-card">
+      <h2>📚 Visitor Guides</h2>
+      <p>Explore curated digital brochures and family-friendly travel guides to help you get the most out of your stay.</p>
+      <a href="https://www.tourismvancouver.com/" target="_blank">Visit Tourism Vancouver</a>
+    </section>
+
+    <section class="resource-card">
+      <h2>🌐 Local Services</h2>
+      <p>Connect with public libraries, community centers, and health clinics for services near you.</p>
+      <a href="https://www.vpl.ca/" target="_blank">Vancouver Public Library</a>
+    </section>
+
+    <div class="return-home">
+      <a href="index.html" class="home-button">← Return Home</a>
+    </div>
+  </main>
+
+  <footer class="resources-footer">
+      <p>©️copy <span id="year"></span>  😊 Evangelis Albesa WDD 330😊 Vancouver Paradise,Canada. All right reserved</p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+  </footer>
+
+  <script>
+   document.getElementById("year").textContent = new Date ().getFullYear();
+
+document.getElementById("last-modified").textContent = document.lastModified;
+
+ 
+ // Output the current year in the footer's first paragraph
+  const currentYear = new Date().getFullYear();
+  document.getElementById("currentyear").textContent = currentYear;
+  
+  // Output the date the document was last modified in the footer's second paragraph
+  const lastModified = document.lastModified;
+  document.getElementById("lastModified").textContent = "Last Modification: " + lastModified;
+  </script>
+</body>
+</html>

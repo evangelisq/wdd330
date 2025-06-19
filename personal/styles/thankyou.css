@@ -54,3 +54,23 @@ body {
   background-color: #e64a19;
   transform: scale(1.05);
 }
+.return-home {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.home-button {
+  background-color: #00897b;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.home-button:hover {
+  background-color: #004d40;
+  transform: translateY(-2px);
+}

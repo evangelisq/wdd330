@@ -96,6 +96,17 @@ ul {
   margin-top: 3rem;
 }
 
+ footer {
+    background-color: #083D77; /*#112A46*/
+    text-align: center;
+    padding: 10px 0;
+}
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(30px); }
   to   { opacity: 1; transform: translateY(0); }
