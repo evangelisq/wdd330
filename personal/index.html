@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vancouver Paradise</title>
+    <meta name="description" content="WDD 230 WEb Frontend Development Evangelis Albesa Focuses on fundamentals of web developmwnt, particularly uinf HTMK, CSS, and JavaScript.. It emphasizez creating responsive and accessible web pages while adhring to modern web standards.">
+    <meta name="author" content="Evangelis Albesa">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Evangelis Q. Albesa - WDD 230 - Portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://ia.media-imdb.com/images/profile.jpg">
+    <meta property="og:url" content="https://www.facebook.com/share/p/1MFYJWDXCD/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="style/personalbase.cs">
+    <link rel="stylesheet" href="style/personalbase.css">
+    <script src="scripts/personal.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="top-nav">
+            <button>Login</button>
+            <button>Email</button>
+        </div>
+        <nav class="navbar">
+            <button class="hamburger-menu" aria-label="Toggle navigation">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
+            <ul class="menu">
+                <li><a href="index.htnl">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="#">Advocacy</a></li>
+                <li><a href="#">Program</a></li>
+                <li><a href="#">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="banner" style="display:none;">
+            <p>City of Glass and Green: Discover Vancouver</p>
+            <button id="close-banner">Close</button>
+        </div>
+          
+        <section class="hero">
+            <img src="images/vancou.jpg" alt="A view of Langley City" class="hero-image">
+            <h1>Vancouver Paradise</h1>
+
+            <div class="hero-buttons">
+             <button>Connect <span>Find a beuatiful Places</span></button>
+             <button>Join the Tour</button>
+             <button id="upcoming-events-btn">Upcoming Events</button>
+             <button>Benefits of Visiting</button>
+            </div>
+        </section>
+      
+        <section class="tagline">
+            <h3>CONNECTING, SUPPORTING, AND ADVOCATING FOR VANCOUVER PARADISE.</h3>
+        </section>
+
+        <section class="content">
+            <img src="images/langley2.jpg" alt="business">
+            <h4>Vancouver is a vibrant coastal city known for its stunning natural beauty and diverse attractions.
+Highlights include Stanley Park with its scenic Seawall and towering trees, the thrilling Capilano Suspension Bridge, and the nearby Grouse Mountain for outdoor adventures year-round.
+Cultural gems like the Museum of Anthropology and historic Gastown offer rich history and local charm, while the Vancouver Aquarium and VanDusen Botanical Garden provide family-friendly fun and peaceful nature escapes-all within minutes of the city center.
+            </h4>
+        </section>
+        <section class="spotlight-section">
+            <h2>Spotlight Advertisements</h2>
+            <div id="spotlight-ads"></div>
+        </section>   
+    </main>
+     <footer>
+        <p>©️ copy <span id="year"></span>  😊 Evangelis Albesa WDD 330😊 Vancouver Paradise,Canada. All right reserved</p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+     </footer>
+
+</body>
+</html>

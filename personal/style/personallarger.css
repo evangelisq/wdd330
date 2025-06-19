@@ -1,0 +1,55 @@
+@media (min-width:1024px) {
+    .hamburger-menu {
+        display: none;
+    }
+    .menu {
+        left: 5px;
+        width: 150px;
+    }
+    .menu li {
+        margin: 0 15px;
+    }
+    .menu li a {
+        padding: 0;
+    }
+    nav .menu {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        position: static;
+        background: none;
+    }
+    .hero {
+        padding: 6rem 2rem;
+    }
+    .hero h1 {
+        font-size: 3rem;
+        padding: 10px 20px;
+        text-align: center;
+    }
+    .hero-buttons {
+        display: flex;
+        padding: 0.8rem;
+        width: 85%;
+        max-width: 250px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .hero-buttons button {
+        padding:1rem 2rem;
+        font-size: 1.2rem;
+    }
+    .content {
+        flex-direction: column;
+       text-align: center; 
+        align-items: center;
+    }
+    .content img, content p {
+       width: 100%;
+    }
+    .content img {
+        margin-bottom: 20px;
+    }
+}

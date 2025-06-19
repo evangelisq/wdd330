@@ -1,0 +1,231 @@
+ 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #001021;
+    --secondary-color: #004b23;
+    --accent1-color: #ffffff;
+    --accent2-color: #ccff33;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: sans-serif;
+    --paragraph-font: Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #001021;
+    --paragraph-color-on-white: #38b000;
+    --paragraph-color-on-color: #ffffff;
+    --paragraph-background-color: #ccff33;
+    --nav-link-color: #eeeeee;
+    --nav-background-color: #e39774;
+  
+    --nav-hover-link-color: #eeeeee;
+    --nav-hover-background-color: #396E94;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  header{
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+  }
+  h1{
+    color: #ffffff;
+  }
+  .hamburger{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+    margin-left: 30px;
+  }
+  nav .mainMenu{
+    display: none;
+  }
+  nav .mainMenu .active{
+    display: flex;
+    flex-direction:column;
+   position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background-color:var(--nav-hover-background-color);
+    
+    z-index: 10;
+  }
+  nav .mainMenu li a{
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+ 
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li a{
+    display: flex;
+    text-decoration: none;
+  }
+  ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav{
+    background: var(--secondary-color);
+    display: flex;
+    margin-left: 80px;
+  }
+  nav .mainMenu{
+    display: flex;
+    list-style: none;
+  }
+  
+  nav .mainMenu li a:hover{
+    background: var(--paragraph-background-color);
+    color: #001021;
+  }
+  nav .openMenu{
+    font-size: 2rem;
+    margin: 1px;
+    display: none;
+    cursor: pointer;
+  }
+  ul li a{
+    display: flex;
+    margin-right: 90px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  li{
+    display: flex;
+    text-align: right;
+  }
+  footer{
+    background-color: #004b23;
+    color: #ffffff;
+   padding:1%;
+   align-items: center;
+  }
+ main{
+    padding: 20px;  
+ } 
+ h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+ }
+ .content{
+    display: flex;
+    align-items: flex-start;
+ }
+ .images{
+    flex: 1;
+    width: 90%;
+    float: right;
+    padding-right: 20px;
+    
+ }
+ .images img{
+    width: 100%;
+    margin-bottom: 10px;
+    float:right;
+    display: right;
+    width: 100%;
+ }
+ .text{
+    flex: 2;
+ }
+ div p {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 80;
+    float: right;
+    margin-right: 25px;
+    text-align: left;
+ }
+ p{
+    text-align: center;
+ }
+ .share-button{
+    display:block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color:var(--secondary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .share-button:hover{
+    background-color:var(--paragraph-color-on-white);
+ }
+ .form-container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+ }
+ .form-container h3{
+    text-align: center;
+.form-container label{
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+    .form-container input, .form-container textarea{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .form-container button{
+        background-color: #4caf50;
+        color: #ffffff;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+    }
+    .form-container button:hover{
+        background-color: #45a049;
+    }
+ }
+ @media (max-width:800px){
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .images{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .share-story-btn{
+        width: 80%;
+    }
+ }
