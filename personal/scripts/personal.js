@@ -119,6 +119,19 @@ function displaySpotlightAds(members) {
     });
 }
 
+
+  const user = localStorage.getItem("username");
+  if (user) {
+    document.querySelector(".top-nav").innerHTML =
+      `<span>Welcome, ${user}!</span> <a href="#" onclick="logout()">Logout</a>`;
+  }
+
+  function logout() {
+    localStorage.removeItem("username");
+    location.reload();
+  }
+
+
 document.getElementById("year").textContent = new Date ().getFullYear();
 
 document.getElementById("last-modified").textContent = document.lastModified;

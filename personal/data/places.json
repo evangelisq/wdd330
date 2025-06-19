@@ -1,0 +1,21 @@
+
+[
+  {
+    "name": "Stanley Park",
+    "location": "Downtown Vancouver",
+    "category": "Nature",
+    "image": "images/stanley.jpg",
+    "rating": 4.9,
+    "description": "A massive green oasis with biking trails, beaches, and totem poles.",
+    "link": "https://vancouver.ca/parks-recreation-culture/stanley-park.aspx"
+  },
+  {
+    "name": "Granville Island Market",
+    "location": "Granville Island",
+    "category": "Food & Culture",
+    "image": "images/granville.jpg",
+    "rating": 4.7,
+    "description": "A public market with local food, crafts, and lively vibes.",
+    "link": "https://granvilleisland.com/public-market"
+  }
+]
