@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(to top right, #eafbea, #ffffff);
+  color: #2b2b2b;
+}
+
+.page-header {
+  background-color: #00695c;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.page-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.green-section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.section-block {
+  background: #ffffff;
+  border-left: 5px solid #4caf50;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  animation: fadeInUp 0.7s ease;
+}
+
+.highlight {
+  background: #f1f8e9;
+  border-color: #ffca28;
+}
+
+.section-block h2 {
+  color: #2e7d32;
+  margin-bottom: 0.75rem;
+}
+
+.section-block p,
+.section-block li {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+ul {
+  padding-left: 1.2rem;
+  list-style: square;
+}
+
+.back-home {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.home-button {
+  background-color: #43a047;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.home-button:hover {
+  background-color: #2e7d32;
+  transform: translateY(-2px);
+}
+
+.page-footer {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1rem;
+  background-color: #00695c;
+  color: white;
+  margin-top: 3rem;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

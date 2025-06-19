@@ -15,9 +15,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
    
-    <link rel="stylesheet" href="style/personalbase.cs">
-    <link rel="stylesheet" href="style/personalbase.css">
+    <link rel="stylesheet" href="styles/personalbase.cs">
+    <link rel="stylesheet" href="styles/personalbase.css">
     <script src="scripts/personal.js" defer></script>
+    <script src="scripts/api.js" defer></script>
+    <script src="scripts/main.js" defer></script>
 </head>
 <body>
     <header>
@@ -32,9 +34,10 @@
                 <span class="line"></span>
             </button>
             <ul class="menu">
-                <li><a href="index.htnl">About</a></li>
+                
+                <li><a href="index.html">About Us</a></li>
                 <li><a href="events.html">Events</a></li>
-                <li><a href="#">Advocacy</a></li>
+                <li><a href="greenkind.html">Green and Kind</a></li>
                 <li><a href="#">Program</a></li>
                 <li><a href="#">Resources</a></li>
             </ul>
@@ -57,17 +60,21 @@
              <button>Benefits of Visiting</button>
             </div>
         </section>
-      
+       <h2>Welcome to Vancouver Paradise</h2>
         <section class="tagline">
             <h3>CONNECTING, SUPPORTING, AND ADVOCATING FOR VANCOUVER PARADISE.</h3>
         </section>
-
         <section class="content">
-            <img src="images/langley2.jpg" alt="business">
-            <h4>Vancouver is a vibrant coastal city known for its stunning natural beauty and diverse attractions.
+            <div class="content-wrapper">
+                <div class="content-image">
+            <img src="images/stanley.webp" alt="business">
+            
+            <p>Vancouver is a vibrant coastal city known for its stunning natural beauty and diverse attractions.
 Highlights include Stanley Park with its scenic Seawall and towering trees, the thrilling Capilano Suspension Bridge, and the nearby Grouse Mountain for outdoor adventures year-round.
 Cultural gems like the Museum of Anthropology and historic Gastown offer rich history and local charm, while the Vancouver Aquarium and VanDusen Botanical Garden provide family-friendly fun and peaceful nature escapes-all within minutes of the city center.
-            </h4>
+            </p>
+            </div>
+            </div>
         </section>
         <section class="spotlight-section">
             <h2>Spotlight Advertisements</h2>
@@ -75,7 +82,7 @@ Cultural gems like the Museum of Anthropology and historic Gastown offer rich hi
         </section>   
     </main>
      <footer>
-        <p>©️ copy <span id="year"></span>  😊 Evangelis Albesa WDD 330😊 Vancouver Paradise,Canada. All right reserved</p>
+        <p>©️copy <span id="year"></span>  😊 Evangelis Albesa WDD 330😊 Vancouver Paradise,Canada. All right reserved</p>
         <p>Last Modified: <span id="last-modified"></span></p>
      </footer>
 
